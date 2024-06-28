@@ -12,6 +12,9 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
 }
 
 .container {
@@ -27,9 +30,6 @@ body {
     backdrop-filter: blur(30px); /* Added 'px' unit for blur */
     animation: conani 5s infinite; /* Increased animation duration and set it to infinite */
     border: 1px solid rgb(9, 255, 0);
-    flex-direction: column;
-    gap: 50px;
-    color: white;
 }
 
 @keyframes conani {
